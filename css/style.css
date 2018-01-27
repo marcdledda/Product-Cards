@@ -1,7 +1,14 @@
+.flexAll {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .Pro1 {
     width: 30%;
     height: auto;
     border: 1px solid lightblue;
+    margin: 10px;
 }
 .Pro1 h2 {
     text-align: center;
@@ -25,7 +32,7 @@
     color: yellow;
     font-weight: bold;
 }
-.Pro1 h3 {
+.Pro1 .headSpecify {
     margin-bottom: 0;
     margin-left: 5px;
     font-weight: normal;
@@ -40,4 +47,14 @@
 }
 .Pro1 .specify {
     font-size: 13px;
+}
+.Pro1 .headPrice {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+    font-weight: normal;
+}
+.Pro1 .Price {
+    margin-left: 15px;
+    font-weight: bold;
 }
