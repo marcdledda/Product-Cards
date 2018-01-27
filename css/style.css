@@ -1,0 +1,60 @@
+.flexAll {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Pro1 {
+    width: 30%;
+    height: auto;
+    border: 1px solid lightblue;
+    margin: 10px;
+}
+.Pro1 h2 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    border: 1px dotted lightgray;
+}
+.Pro1 img {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.Pro1 .desc {
+    margin: 10px;
+}
+.Pro1 .availability {
+    background-color: darkgray;
+    color: yellow;
+    font-weight: bold;
+}
+.Pro1 .headSpecify {
+    margin-bottom: 0;
+    margin-left: 5px;
+    font-weight: normal;
+}
+.Pro1 .size {
+    margin-left: 15px;
+    font-weight: bold;
+}
+.Pro1 .weight {
+    margin-left: 15px;
+    font-weight: bold;
+}
+.Pro1 .specify {
+    font-size: 13px;
+}
+.Pro1 .headPrice {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+    font-weight: normal;
+}
+.Pro1 .Price {
+    margin-left: 15px;
+    font-weight: bold;
+}
